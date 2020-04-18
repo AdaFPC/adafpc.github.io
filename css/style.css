@@ -1,0 +1,88 @@
+*{
+    box-sizing:  border-box;
+
+}
+
+body {
+
+background-color:white;
+margin:0;
+}
+
+h1 {
+    background-color:#A8D3DA ;
+    font-family: 'Libre Baskerville', serif;
+}
+h3 {
+    font-family: 'Libre Baskerville', serif;
+font-family: 'Raleway', sans-serif;
+}
+a { text-decoration: none;} /*tira o sublinhado do link*/
+.banner {
+    background-image:url("../img/banner.JPG");
+    background-size: cover;
+    height: 80vh; /*tamanho da imagem na tela*/
+    display: flex;
+    align-items: center; /*alinha o texto ao centro*/
+}
+.banner_conteudo {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+.banner_conteudo a { 
+    background-color: white;
+    padding:0.5rem 1rem; /*1 rem equivale a 16 pixel (tamanho da fonte*/
+    border-radius: 5rem; /*borda do link*/
+    text-transform: uppercase; /*fonte em caixa alta*/
+    font-size: 0.8rem; /*tamanho da fonte*/   
+}
+.banner_conteudo a:hover{
+    background-color: thistle; /*muda a cor quando passa o mouse no link*/
+    transition: ease 0.5s;
+    color: whitesmoke;
+}
+.sobre, .redes_sociais {
+    max-width: 1024px; /*tamanho máximo de largura*/
+    margin: auto; /*deixa  centralizado*/
+}
+.sobre > h3{
+    text-align: justify
+}
+.sobre_mim{
+    display: flex;
+}
+.sobre_conteudo,.sobre_habilidades {
+max-width: 50%;
+}
+.sobre_conteudo {
+    margin-right: 5rem;
+}
+.sobre_conteudo a{ 
+    background-color:white;
+    padding:0.5rem 1rem; /*1 rem equivale a 16 pixel (tamanho da fonte*/
+    border-radius: 5rem; /*borda do link*/
+    text-transform: uppercase; /*fonte em caixa alta*/
+    font-size: 0.8rem; 
+}
+.sobre_conteudo a:hover {
+    background-color: thistle; /*muda a cor quando passa o mouse no link*/
+    transition: ease 0.5s;
+    color: whitesmoke;
+}
+
+.redes_sociais{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    max-height: 2rem;
+    margin-bottom: 10rem;
+}
+footer{
+
+    background-color: thistle;
+    color:white;
+    text-align: center;
+    padding: 1rem;
+    ;
+}

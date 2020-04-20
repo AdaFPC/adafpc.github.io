@@ -1,102 +1,102 @@
-*{
-    box-sizing:  border-box;
-
+* {
+  box-sizing: border-box;
 }
 
 body {
-
-background-color:#D8EBB5;
-margin:0;
+  background-color: #d8ebb5;
+  margin: 0;
 }
 
 h1 {
-    background-color:none ;
-    font-family: 'Libre Baskerville', serif;
+  background-color: none;
+  font-family: "Libre Baskerville", serif;
 }
 h3 {
-    font-family: 'Libre Baskerville', serif;
-font-family: 'Raleway', sans-serif;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Raleway", sans-serif;
 }
-p,li {
-    font-family: 'Libre Baskerville', serif;
-font-family: 'Raleway', sans-serif;
-font-family: 'Rubik', sans-serif;
+p,
+li {
+  font-family: "Libre Baskerville", serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
-    h2{
-        font-family: 'Libre Baskerville', serif;
-        font-family: 'Raleway', sans-serif;
-        font-family: 'Rubik', sans-serif;
-        font-family: 'Roboto', sans-serif;  
-    }
-a { text-decoration: none;} /*tira o sublinhado do link*/
+h2 {
+  font-family: "Libre Baskerville", serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+} /*tira o sublinhado do link*/
 .banner {
-    background-image:url("../img/banner.png");
-    background-size: cover;
-    height: 80vh; /*tamanho da imagem na tela*/
-    display: flex;
-    align-items: center; /*alinha o texto ao centro*/
+  background-image: url("../img/banner.png");
+  background-size: cover;
+  height: 80vh; /*tamanho da imagem na tela*/
+  display: flex;
+  align-items: center; /*alinha o texto ao centro*/
 }
 .banner_conteudo {
-    margin: 0 auto;
-    text-align: center;
-    color: white;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
 }
-.banner_conteudo a { 
-    background-color: white;
-    padding:0.5rem 1rem; /*1 rem equivale a 16 pixel (tamanho da fonte*/
-    border-radius: 5rem; /*borda do link*/
-    text-transform: uppercase; /*fonte em caixa alta*/
-    font-size: 0.8rem; /*tamanho da fonte*/   
+.banner_conteudo a {
+  background-color: white;
+  padding: 0.5rem 1rem; /*1 rem equivale a 16 pixel (tamanho da fonte*/
+  border-radius: 5rem; /*borda do link*/
+  text-transform: uppercase; /*fonte em caixa alta*/
+  font-size: 0.8rem; /*tamanho da fonte*/
 }
-.banner_conteudo a:hover{
-    background-color: #639A67; /*muda a cor quando passa o mouse no link*/
-    transition: ease 0.5s;
-    color: whitesmoke;
+.banner_conteudo a:hover {
+  background-color: #639a67; /*muda a cor quando passa o mouse no link*/
+  transition: ease 0.5s;
+  color: whitesmoke;
 }
-.sobre, .redes_sociais {
-    max-width: 1024px; /*tamanho máximo de largura*/
-    margin: auto; /*deixa  centralizado*/
+.sobre,
+.redes_sociais {
+  max-width: 1024px; /*tamanho máximo de largura*/
+  margin: auto; /*deixa  centralizado*/
 }
-.sobre > h3{
-    text-align: justify
+.sobre > h3 {
+  text-align: justify;
 }
-.sobre_mim{
-    display: flex;
+.sobre_mim {
+  display: flex;
 }
 
 .sobre_conteudo {
-    margin-right: 5rem;
+  margin-right: 5rem;
 }
-.sobre_conteudo a{ 
-    background-color:white;
-    padding:0.5rem 1rem; /*1 rem equivale a 16 pixel (tamanho da fonte*/
-    border-radius: 5rem; /*borda do link*/
-    text-transform: uppercase; /*fonte em caixa alta*/
-    font-size: 0.8rem; 
+.sobre_conteudo a {
+  background-color: white;
+  padding: 0.5rem 1rem; /*1 rem equivale a 16 pixel (tamanho da fonte*/
+  border-radius: 5rem; /*borda do link*/
+  text-transform: uppercase; /*fonte em caixa alta*/
+  font-size: 0.8rem;
 }
 .sobre_conteudo a:hover {
-    background-color:#639A67; /*muda a cor quando passa o mouse no link*/
-    transition: ease 0.5s;
-    color: whitesmoke;
+  background-color: #639a67; /*muda a cor quando passa o mouse no link*/
+  transition: ease 0.5s;
+  color: whitesmoke;
 }
 
-.redes_sociais{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 5rem;
-   
+.redes_sociais {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
 }
-footer{
-
-    background-color: #2B580C;
-    color:white;
-    text-align: center;
-    padding: 1rem;
-    ;
+footer {
+  background-color: #2b580c;
+  color: white;
+  text-align: center;
+  padding: 1rem;
 }
 .scale-up-bottom {
-	-webkit-animation: scale-up-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: scale-up-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  -webkit-animation: scale-up-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 /* ----------------------------------------------
@@ -111,32 +111,31 @@ footer{
  * animation scale-up-bottom
  * ----------------------------------------
  */
- @-webkit-keyframes scale-up-bottom {
-    0% {
-      -webkit-transform: scale(0.5);
-              transform: scale(0.5);
-      -webkit-transform-origin: 50% 100%;
-              transform-origin: 50% 100%;
-    }
-    100% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-      -webkit-transform-origin: 50% 100%;
-              transform-origin: 50% 100%;
-    }
+@-webkit-keyframes scale-up-bottom {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
   }
-  @keyframes scale-up-bottom {
-    0% {
-      -webkit-transform: scale(0.5);
-              transform: scale(0.5);
-      -webkit-transform-origin: 50% 100%;
-              transform-origin: 50% 100%;
-    }
-    100% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-      -webkit-transform-origin: 50% 100%;
-              transform-origin: 50% 100%;
-    }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
   }
-  
+}
+@keyframes scale-up-bottom {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+  }
+}
